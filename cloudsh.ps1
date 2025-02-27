@@ -29,7 +29,7 @@ if (-not $subscriptions) {
 }
 
 # Fixed PartnerId for the PAL relationship
-$partnerId = "317881"
+$partnerId = "1098601"
 
 foreach ($sub in $subscriptions) {
     Write-Output "Processing subscription: $($sub.Name) ($($sub.Id))"
